@@ -1,0 +1,39 @@
+﻿@model IntroduccionMVC.Models.Datos
+@{
+    Layout = null;
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <a href="~/Operaciones/Index">Hacer una Resta</a>
+    <br />
+    <a href="~/Operaciones/Suma">Ver suma</a>
+    <br />
+    <br />
+    <label>Valor 1</label>
+    <br />
+
+            <input type="text" name="a" value="" />
+            <br /><br />
+            <label>Valor 2</label>
+            <br />
+            <input type="text" name="b" value="" />
+            <br />
+            <br />
+            <div class="form-group">
+                <select class="form-control" name="opcion">
+                    <option value="0" selected>Seleccione una operacion</option>
+                    <option value="1">Multiplicar</option>
+                    <option value="2">Dividir</option>
+                </select>
+            </div> <br />
+            <input type="submit" name="Resultado" value="calcular" />
+    
+
+}
+
+@if (ViewBag.resultado != null)
+{
+    <span>Resultado: &nbsp;@ViewBag.Resultado</span>
+}
