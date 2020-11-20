@@ -1,0 +1,6 @@
+C:\Users\50360\Documents\Visual Studio 2015\Projects\Parcial4_2524572019\Lambda\bin\Debug\Lambda.exe.config
+C:\Users\50360\Documents\Visual Studio 2015\Projects\Parcial4_2524572019\Lambda\bin\Debug\Lambda.exe
+C:\Users\50360\Documents\Visual Studio 2015\Projects\Parcial4_2524572019\Lambda\bin\Debug\Lambda.pdb
+C:\Users\50360\Documents\Visual Studio 2015\Projects\Parcial4_2524572019\Lambda\obj\Debug\Lambda.csprojResolveAssemblyReference.cache
+C:\Users\50360\Documents\Visual Studio 2015\Projects\Parcial4_2524572019\Lambda\obj\Debug\Lambda.exe
+C:\Users\50360\Documents\Visual Studio 2015\Projects\Parcial4_2524572019\Lambda\obj\Debug\Lambda.pdb
